@@ -2,24 +2,17 @@
 
 int gA, gB;
 
-void compare(int A, int B)
-{
-    if (A > B)
-    {
+void compare(int A, int B) {
+    if (A > B) {
         printf(">\n");
-    }
-    else if (A < B)
-    {
+    } else if (A < B) {
         printf("<\n");
-    }
-    else
-    {
+    } else {
         printf("==\n");
     }
 }
 
-int main(void)
-{
+int main(void) {
     scanf("%d %d", &gA, &gB);
 
     compare(gA, gB);
