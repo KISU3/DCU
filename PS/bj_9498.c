@@ -4,15 +4,15 @@ int gA;
 
 void board(int score) {
     if (score >= 90) {
-        printf("A\\n");
+        printf("A\n");
     } else if (score >= 80) {
-        printf("B\\n");
+        printf("B\n");
     } else if (score >= 70) {
-        printf("C\\n");
+        printf("C\n");
     } else if (score >= 60) {
-        printf("D\\n");
+        printf("D\n");
     } else {
-        printf("F\\n");
+        printf("F\n");
     }
 }
 
